@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-03T11:35:23 IST" name="Default suite" finished-at="2023-09-03T11:36:58 IST" duration-ms="95391">
+    <groups>
+    </groups>
+    <test started-at="2023-09-03T11:35:23 IST" name="Default test" finished-at="2023-09-03T11:36:58 IST" duration-ms="95391">
+      <class name="FlightBooking.AutomationExercise.Apptest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:FlightBooking.AutomationExercise.Apptest@6440112d]" started-at="2023-09-03T11:35:23 IST" name="launchApplication" finished-at="2023-09-03T11:35:29 IST" duration-ms="6344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="flightbooking(java.util.HashMap)[pri:0, instance:FlightBooking.AutomationExercise.Apptest@6440112d]" started-at="2023-09-03T11:35:29 IST" name="flightbooking" data-provider="getData" finished-at="2023-09-03T11:36:58 IST" duration-ms="88734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailiderror=Email ID cannot be empty, mobilenumber=9846752830, adult2=Paul, adults=3, adult3=Thomas, mobilenumbererror=Mobile Number cannot be empty, adult1=John, departuredate=1, infantgender=Male, child2=Nick, infant=Alex, adultgender=Male, child1=Harry, arrivaldate=1, childgender=Male, arrivalmonth=December 2023, children=2, yearofbirth=2023, dateofbirtherror=Date of birth is mandatory, monthofbirth=Feb, from=BLR, infants=1, departuremonth=November 2023, dayofbirth=03, emailid=xyz@gmail.com, firstnameerror=First & Middle Name is mandatory, to=BOM}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightbooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FlightBooking.AutomationExercise.Apptest@6440112d]" started-at="2023-09-03T11:36:58 IST" name="tearDown" finished-at="2023-09-03T11:36:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FlightBooking.AutomationExercise.Apptest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
